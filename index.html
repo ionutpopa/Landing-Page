@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/simple-lightbox.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link
+            href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9ab40ffcef.js"></script>
+        <title>Landing Page Example I~O~N</title>
+    </head>
+    <body>
+        <div class="ajutator" id="home"></div>
+        <div id="head" class="nav-wrapper">
+            <a class="logo">Your Logo</a>
+            <nav class="nav-right">
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#info">Info</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- * Showcase -->
+
+        <section class="section-a">
+            <div class="container">
+                <div>
+                    <h1>The product of the future</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Blanditiis quam, commodi sint unde reprehenderit veniam
+                        consequatur deserunt atque nam libero amet
+                        necessitatibus, quia error consequuntur.</p>
+                    <a class="btn">Read More</a>
+                </div>
+                <img class="product" src="./pics/your product.png" alt="laptop">
+            </div>
+        </section>
+
+        <!-- * Overlay Text-->
+
+        <section id="info" class="section-b">
+            <div class="overlay">
+                <div class="section-b-inner">
+                    <h2>Minimalistic Design, Compact</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Earum inventore sint dolores quo beatae magni..</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- * Gallery-->
+
+        <section class="section-c">
+            <div class="gallery">
+                <a href="pics/1.png" class="big"><img
+                        src="pics/1.png" alt=""></a>
+                <a href="pics/2.png" class="big"><img
+                        src="pics/2.png" alt=""></a>
+                <a href="pics/3.png" class="big"><img
+                        src="pics/3.png" alt=""></a>
+                <a href="pics/4.png" class="big"><img
+                        src="pics/4.png" alt=""></a>
+                <a href="pics/5.png" class="big"><img
+                        src="pics/5.png" alt=""></a>
+                <a href="pics/6.png" class="big"><img
+                        src="pics/6.png" alt=""></a>
+            </div>
+        </section>
+
+        <!-- * Read More Modal -->
+
+        <!-- Modal -->
+        <div id="modalId" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close-modal"></span>
+                <p>I'm not doing stuff yet</p>
+            </div>
+        </div>
+
+        <!-- * Footer -->
+
+        <footer id="contact" class="section-footer">
+            <div class="container">
+                <div class="socialMedia">
+                    <h2>Social Media</h2>
+                    <a href="https://twitter.com">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="https://www.facebook.com">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://google.com">
+                        <i class="fab fa-google fa-2x"></i>
+                    </a>
+                </div>
+                <div class="companyInfo">
+                    <h3>Company Info</h3>
+                    <ul>
+                        <li><a id="allproducts" href="#allproducts">All Products</a></li>
+                        <li><a id="aboutus" href="#aboutus">About Us</a></li>
+                        <li><a id="privacypolicy" href="#privacypolicy">Privacy
+                                Policy</a></li>
+                        <li><a id="termsofservice" href="#termsofservice">Terms
+                                of Service</a></li>
+                    </ul>
+                </div>
+                <div class="subscribeThing">
+                    <h3>Subscribe</h3>
+                    <p>Here is the subscription thing, it's here in case you
+                        need it.</p>
+                    <form name="email-form" method="POST"
+                        data-netlify-recaptcha="true" data-netlify="true">
+                        <div class="email-form">
+                            <span class="form-control-wrap">
+                                <input type="email" name="email" id="email"
+                                    size="40" class="form-control"
+                                    placeholder="email">
+                            </span>
+                            <div id="recaptcha"
+                                data-netlify-recaptcha="true"></div>
+                            <button type="submit" class="form-control submit">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./js/simple-lightbox.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
