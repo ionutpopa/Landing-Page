@@ -49,3 +49,5 @@ window.addEventListener(
 	},
 	false
 );
+
+//console.log(lightbox)
